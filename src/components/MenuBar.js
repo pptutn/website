@@ -1,33 +1,29 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import AboutMe from "../pages/AboutMe";
-import Home from "../pages/Home";
-import Sounds from "../pages/Sounds";
-import Flicks from "../pages/Flicks";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { StyledMenu, StyledMenuItem } from "../styled";
 
 function MenuBar() {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/sounds">Sounds</Link>
-        </li>
-        <li>
-          <Link to="/flicks">Flicks</Link>
-        </li>
-        <li>
-          <Link to="/experiences">Experiences</Link>
-        </li>
-      </ul>
-
-      <hr />
-    </div>
+    <StyledMenu>
+      <StyledMenuItem>
+        <Link to="/">Home</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/about">About</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/sounds">Sounds</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/flicks">Flicks</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/experiences">Experiences</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/projects">Projects</Link>
+      </StyledMenuItem>
+    </StyledMenu>
   );
 }
 

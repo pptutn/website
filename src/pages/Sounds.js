@@ -1,10 +1,11 @@
 // mixes
 import React from "react";
+import { StyledH1 } from "../styled";
 
 function Sounds() {
   return (
     <>
-      <h1>My Sounds</h1>
+      <StyledH1>My Sounds</StyledH1>
       <p>Collection of some of my mixes</p>
     </>
   );
