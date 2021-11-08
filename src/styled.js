@@ -47,6 +47,9 @@ const StyledMenu = styled.div`
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  position: absolute;
+  top: 0;
+  z-index: 100;
 `;
 
 const StyledMenuItem = styled.li`

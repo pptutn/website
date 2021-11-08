@@ -9,13 +9,13 @@ import MenuBar from "./components/MenuBar";
 import Experiences from "./pages/Experiences";
 import Socials from "./components/Socials";
 import Projects from "./pages/Projects";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <MenuBar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />

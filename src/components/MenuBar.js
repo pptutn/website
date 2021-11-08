@@ -6,7 +6,9 @@ function MenuBar() {
   return (
     <StyledMenu>
       <StyledMenuItem>
-        <Link to="/">Home</Link>
+        <Link to="/" color="#2B9EB3">
+          Home
+        </Link>
       </StyledMenuItem>
       <StyledMenuItem>
         <Link to="/about">About</Link>

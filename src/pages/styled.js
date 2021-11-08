@@ -29,8 +29,10 @@ const StyledWrapper = styled.div`
 const StyledParagraph = styled.p`
     margin: auto;
     margin-top: 0;
+    margin-bottom: ${(props) =>
+      props.marginBottom ? props.marginBottom : "1rem"};
     font-size 20px;
-    max-width: 450px;
+    max-width: ${(props) => (props.maxWidth ? props.maxWidth : "450px")};
 `;
 
 const StyledH1 = styled.h1`
@@ -49,6 +51,14 @@ const StyledImage = styled.img`
   height: 409px;
 `;
 
+const TextOverImage = styled.div`
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  font-size: 80px;
+  color: #ffffff;
+`;
+
 export {
   StyledVideoItem,
   StyledCaption,
@@ -57,4 +67,5 @@ export {
   StyledH1,
   StyledH2,
   StyledImage,
+  TextOverImage,
 };
