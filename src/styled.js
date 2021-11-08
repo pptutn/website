@@ -54,6 +54,7 @@ const StyledMenuItem = styled.li`
 
 const StyledH1 = styled.h1`
   color: #eca72c;
+  text-transform: uppercase;
 `;
 
 export {
