@@ -1,6 +1,6 @@
 import React from "react";
 import newlogo from "../image2vector.svg";
-import { StyledH1 } from "../styled";
+import { StyledH1 } from "./styled";
 
 function Home() {
   return (

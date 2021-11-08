@@ -12,10 +12,13 @@ function MenuBar() {
         <Link to="/about">About</Link>
       </StyledMenuItem>
       <StyledMenuItem>
-        <Link to="/sounds">Sounds</Link>
+        <Link to="/flicks">Flicks</Link>
       </StyledMenuItem>
       <StyledMenuItem>
-        <Link to="/flicks">Flicks</Link>
+        <Link to="/photos">Photos</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
+        <Link to="/sounds">Sounds</Link>
       </StyledMenuItem>
       <StyledMenuItem>
         <Link to="/experiences">Experiences</Link>

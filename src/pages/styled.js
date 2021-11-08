@@ -33,10 +33,20 @@ const StyledParagraph = styled.p`
     max-width: 450px;
 `;
 
+const StyledH1 = styled.h1`
+  color: #eca72c;
+  text-transform: uppercase;
+`;
+
 const StyledH2 = styled.h2`
   max-width: 900px;
   font-size 20px;
   font-weight: normal;
+`;
+
+const StyledImage = styled.img`
+  width: 606px;
+  height: 409px;
 `;
 
 export {
@@ -44,5 +54,7 @@ export {
   StyledCaption,
   StyledParagraph,
   StyledWrapper,
+  StyledH1,
   StyledH2,
+  StyledImage,
 };

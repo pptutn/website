@@ -2,7 +2,12 @@ import React from "react";
 import { StyledList, StyledParagraph, StyledH2 } from "../styled";
 
 function Section(props) {
-  const list = props.details.map((i) => <li key={i}>{i}</li>);
+  const list = props.details.map((i) => (
+    <>
+      <li key={i}>{i}</li>
+      <br />
+    </>
+  ));
   return (
     <>
       <StyledH2>{props.heading}</StyledH2>

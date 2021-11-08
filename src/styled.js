@@ -21,6 +21,7 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledH2 = styled.h2`
+  color: #eca72c;
   text-decoration: underline;
   margin: 0;
 `;
@@ -29,6 +30,7 @@ const StyledParagraph = styled.p`
   margin: 0 rem;
   font-size: 20px;
   text-transform: uppercase;
+  color: #2b9eb3;
 `;
 
 const StyledList = styled.ul`
@@ -36,6 +38,7 @@ const StyledList = styled.ul`
   padding: 0;
   list-style: none;
   font-size: 18px;
+  max-width: 500px;
 `;
 
 const StyledMenu = styled.div`
@@ -52,11 +55,6 @@ const StyledMenuItem = styled.li`
   margin: 1rem;
 `;
 
-const StyledH1 = styled.h1`
-  color: #eca72c;
-  text-transform: uppercase;
-`;
-
 export {
   StyledLink,
   StyledBox,
@@ -65,5 +63,4 @@ export {
   StyledH2,
   StyledMenu,
   StyledMenuItem,
-  StyledH1,
 };
