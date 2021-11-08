@@ -3,11 +3,14 @@ import Link from "./components/Link";
 
 const StyledBox = styled.div`
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-colour: #f890e7;
 `;
 
 const StyledLink = styled(Link)`
-  color: #00e0ff;
+  color: #2b9eb3;
   font: 20px Helvetica, sans-serif;
   margin: 0.5rem;
 
@@ -35,4 +38,32 @@ const StyledList = styled.ul`
   font-size: 18px;
 `;
 
-export { StyledLink, StyledBox, StyledList, StyledParagraph, StyledH2 };
+const StyledMenu = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+`;
+
+const StyledMenuItem = styled.li`
+  height: 80px;
+  list-style: none;
+  margin: 1rem;
+`;
+
+const StyledH1 = styled.h1`
+  color: #eca72c;
+  text-transform: uppercase;
+`;
+
+export {
+  StyledLink,
+  StyledBox,
+  StyledList,
+  StyledParagraph,
+  StyledH2,
+  StyledMenu,
+  StyledMenuItem,
+  StyledH1,
+};
