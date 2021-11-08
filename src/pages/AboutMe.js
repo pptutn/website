@@ -14,6 +14,10 @@ function AboutMe() {
       <StyledH1> ABOUT ME </StyledH1>
       <p>Hi I'm Phil :)</p>
       <StyledParagraph maxWidth={"600px"}>
+        Jack of all trades is a master of none, but oftentimes better than a
+        master of one.
+      </StyledParagraph>
+      <StyledParagraph maxWidth={"600px"}>
         3rd Year BComm + BCompSci @ Monash University
       </StyledParagraph>
       <StyledVideoItem>

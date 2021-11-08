@@ -38,6 +38,7 @@ const StyledParagraph = styled.p`
 const StyledH1 = styled.h1`
   color: #eca72c;
   text-transform: uppercase;
+  margin-top: 3rem;
 `;
 
 const StyledH2 = styled.h2`
