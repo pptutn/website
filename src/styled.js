@@ -30,7 +30,7 @@ const StyledParagraph = styled.p`
   margin: 0 rem;
   font-size: 20px;
   text-transform: uppercase;
-  color: #2b9eb3;
+  color: #f1bf98;
 `;
 
 const StyledList = styled.ul`

@@ -9,7 +9,6 @@ import MenuBar from "./components/MenuBar";
 import Experiences from "./pages/Experiences";
 import Socials from "./components/Socials";
 import Projects from "./pages/Projects";
-import NavBar from "./components/NavBar";
 
 function App() {
   return (

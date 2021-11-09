@@ -14,6 +14,9 @@ function MenuBar() {
         <Link to="/about">About</Link>
       </StyledMenuItem>
       <StyledMenuItem>
+        <Link to="/experiences">Experience</Link>
+      </StyledMenuItem>
+      <StyledMenuItem>
         <Link to="/flicks">Flicks</Link>
       </StyledMenuItem>
       <StyledMenuItem>
@@ -21,9 +24,6 @@ function MenuBar() {
       </StyledMenuItem>
       <StyledMenuItem>
         <Link to="/sounds">Sounds</Link>
-      </StyledMenuItem>
-      <StyledMenuItem>
-        <Link to="/experiences">Experiences</Link>
       </StyledMenuItem>
       <StyledMenuItem>
         <Link to="/projects">Projects</Link>
