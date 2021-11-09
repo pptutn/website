@@ -6,7 +6,7 @@ function Projects() {
     <>
       <StyledH1>These are some of my projects</StyledH1>
       <StyledParagraph>Page in Progress</StyledParagraph>
-      <img src="/images/meme.jpg"></img>
+      <img src="/images/meme.JPG"></img>
       <br />
     </>
   );
