@@ -1,11 +1,12 @@
 // image gallery and links to the films i've edited
 import React from "react";
-import { StyledH1 } from "../styled";
+
 import {
   StyledCaption,
   StyledVideoItem,
   StyledParagraph,
   StyledWrapper,
+  StyledH1,
   StyledH2,
 } from "./styled";
 

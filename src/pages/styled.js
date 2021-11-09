@@ -29,8 +29,17 @@ const StyledWrapper = styled.div`
 const StyledParagraph = styled.p`
     margin: auto;
     margin-top: 0;
+    margin-bottom: ${(props) =>
+      props.marginBottom ? props.marginBottom : "0rem"};
     font-size 20px;
-    max-width: 450px;
+    max-width: ${(props) => (props.maxWidth ? props.maxWidth : "450px")};
+    color: ${(props) => (props.color ? props.color : "white")};
+`;
+
+const StyledH1 = styled.h1`
+  color: #cc2936;
+  text-transform: uppercase;
+  margin-top: 4rem;
 `;
 
 const StyledH2 = styled.h2`
@@ -39,10 +48,26 @@ const StyledH2 = styled.h2`
   font-weight: normal;
 `;
 
+const StyledImage = styled.img`
+  width: 606px;
+  height: 409px;
+`;
+
+const TextOverImage = styled.div`
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  font-size: 80px;
+  color: #ffffff;
+`;
+
 export {
   StyledVideoItem,
   StyledCaption,
   StyledParagraph,
   StyledWrapper,
+  StyledH1,
   StyledH2,
+  StyledImage,
+  TextOverImage,
 };

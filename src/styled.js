@@ -21,6 +21,7 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledH2 = styled.h2`
+  color: #eca72c;
   text-decoration: underline;
   margin: 0;
 `;
@@ -29,13 +30,15 @@ const StyledParagraph = styled.p`
   margin: 0 rem;
   font-size: 20px;
   text-transform: uppercase;
+  color: #f1bf98;
 `;
 
 const StyledList = styled.ul`
-  margin: 0;
+  margin-bottom: 0rem;
   padding: 0;
   list-style: none;
   font-size: 18px;
+  max-width: 800px;
 `;
 
 const StyledMenu = styled.div`
@@ -44,6 +47,10 @@ const StyledMenu = styled.div`
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  position: absolute;
+  top: 0;
+  margin-top: 1rem;
+  z-index: 100;
 `;
 
 const StyledMenuItem = styled.li`
@@ -52,10 +59,11 @@ const StyledMenuItem = styled.li`
   margin: 1rem;
 `;
 
-const StyledH1 = styled.h1`
-  color: #eca72c;
-  text-transform: uppercase;
-`;
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: "#F1BF98",
+};
 
 export {
   StyledLink,
@@ -65,5 +73,5 @@ export {
   StyledH2,
   StyledMenu,
   StyledMenuItem,
-  StyledH1,
+  linkStyle,
 };
