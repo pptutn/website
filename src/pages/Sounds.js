@@ -25,7 +25,7 @@ function Sounds() {
         target="_blank"
       >
         {/* <TextOverImage>click me </TextOverImage> */}
-        <img src="/images/img_phil4.jpg" resizeMode="contain"></img>
+        <img src="/images/img_phil4.JPG" resizeMode="contain"></img>
       </a>
 
       <br />
