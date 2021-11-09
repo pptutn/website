@@ -5,7 +5,9 @@ import { StyledH1 } from "../pages/styled";
 function Section(props) {
   const list = props.details.map((i) => (
     <>
-      <li key={i}>{i}</li>
+      <li style={{ marginBottom: "-1rem" }} key={i}>
+        {i}
+      </li>
       <br />
     </>
   ));

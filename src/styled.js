@@ -34,11 +34,11 @@ const StyledParagraph = styled.p`
 `;
 
 const StyledList = styled.ul`
-  margin: 0;
+  margin-bottom: 0rem;
   padding: 0;
   list-style: none;
   font-size: 18px;
-  max-width: 500px;
+  max-width: 800px;
 `;
 
 const StyledMenu = styled.div`
@@ -49,6 +49,7 @@ const StyledMenu = styled.div`
   max-width: 1500px;
   position: absolute;
   top: 0;
+  margin-top: 1rem;
   z-index: 100;
 `;
 
@@ -58,6 +59,12 @@ const StyledMenuItem = styled.li`
   margin: 1rem;
 `;
 
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: "#F1BF98",
+};
+
 export {
   StyledLink,
   StyledBox,
@@ -66,4 +73,5 @@ export {
   StyledH2,
   StyledMenu,
   StyledMenuItem,
+  linkStyle,
 };

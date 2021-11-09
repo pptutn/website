@@ -30,15 +30,16 @@ const StyledParagraph = styled.p`
     margin: auto;
     margin-top: 0;
     margin-bottom: ${(props) =>
-      props.marginBottom ? props.marginBottom : "1rem"};
+      props.marginBottom ? props.marginBottom : "0rem"};
     font-size 20px;
     max-width: ${(props) => (props.maxWidth ? props.maxWidth : "450px")};
+    color: ${(props) => (props.color ? props.color : "white")};
 `;
 
 const StyledH1 = styled.h1`
   color: #cc2936;
   text-transform: uppercase;
-  margin-top: 3rem;
+  margin-top: 4rem;
 `;
 
 const StyledH2 = styled.h2`

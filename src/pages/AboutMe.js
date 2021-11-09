@@ -17,8 +17,11 @@ function AboutMe() {
         Jack of all trades, a master of none, but oftentimes better than a
         master of one.
       </StyledParagraph>
-      <StyledParagraph maxWidth={"470px"}>
-        3rd Year BComm (Finance) + BCompSci (Advanced) @ Monash University
+      <StyledParagraph maxWidth={"700px"}>
+        3rd Year
+        <span style={{ color: "#ff0000" }}> BComm (Finance) </span>+
+        <span style={{ color: "#ff0000" }}> BCompSci (Advanced) </span>@ Monash
+        University
       </StyledParagraph>
       <StyledParagraph maxWidth={"600px"}>
         I like doing things. Have a look around my website for things I do.

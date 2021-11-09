@@ -5,9 +5,9 @@ function Projects() {
   return (
     <>
       <StyledH1>These are some of my projects</StyledH1>
-
-      <StyledParagraph>This Website!</StyledParagraph>
-      <StyledParagraph>ReactJS, CSS </StyledParagraph>
+      <StyledParagraph>Page in Progress</StyledParagraph>
+      <img src="/images/meme.jpg"></img>
+      <br />
     </>
   );
 }

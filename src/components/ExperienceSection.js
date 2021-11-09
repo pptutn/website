@@ -10,7 +10,7 @@ function ExperienceSection() {
         "Front-End Development for National Australia Bank",
         "Assisted Business Transaction Accounts creation, adhereing to AML-CDD standards",
         "AWS Certified",
-        "React, Python, Jest, Jenkins",
+        "React, Jest, Jenkins",
       ],
     },
     {
@@ -31,11 +31,11 @@ function ExperienceSection() {
         "Lead the uplift of our rowing uniform, working closely with both Monash University and our suppliers ",
       ],
     },
-    {
-      heading: "Deloitte",
-      description: "Insider Program - 1 Week",
-      details: ["Insider Program", " not AWS Certified"],
-    },
+    // {
+    //   heading: "Deloitte",
+    //   description: "Insider Program - 1 Week",
+    //   details: ["Insider Program", " not AWS Certified"],
+    // },
   ];
 
   const a = jobs.map((item) => (
