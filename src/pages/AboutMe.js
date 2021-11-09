@@ -8,7 +8,7 @@ import {
 } from "./styled";
 
 function AboutMe() {
-  StyledImage.defaultProps = { src: "/images/img_phil.JPG" };
+  StyledImage.defaultProps = { src: "/images/img_phil.jpg" };
   return (
     <>
       <StyledH1> ABOUT ME </StyledH1>
@@ -28,13 +28,13 @@ function AboutMe() {
       </StyledParagraph>
       <StyledVideoItem>
         <div>
-          <StyledImage src="/images/img_phil.JPG"></StyledImage>
+          <StyledImage src="/images/img_phil.jpg"></StyledImage>
           <StyledParagraph>
             Aus Rowing Championships 2021 (Lake Barrington, Tasmania)
           </StyledParagraph>
         </div>
         <div>
-          <StyledImage src="/images/img_phil2.JPG"></StyledImage>
+          <StyledImage src="/images/img_phil2.jpg"></StyledImage>
           <StyledParagraph>
             That's me in my natural habitat, assembling a rigger.
           </StyledParagraph>
