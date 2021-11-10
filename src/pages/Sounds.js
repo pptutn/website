@@ -9,6 +9,7 @@ import {
   StyledWrapper,
   TextOverImage,
 } from "./styled";
+import {img_phil4} from './index'
 
 function Sounds() {
   return (
@@ -25,7 +26,7 @@ function Sounds() {
         target="_blank"
       >
         {/* <TextOverImage>click me </TextOverImage> */}
-        <img src="/images/img_phil4.JPG" resizeMode="contain"></img>
+        <img src={img_phil4} resizeMode="contain"></img>
       </a>
 
       <br />

@@ -7,8 +7,11 @@ import {
   StyledWrapper,
 } from "./styled";
 
+import image1 from "../images/img_phil.JPG";
+import image2 from "../images/img_phil2.JPG";
+
 function AboutMe() {
-  StyledImage.defaultProps = { src: "/images/img_phil.JPG" };
+  // StyledImage.defaultProps = { src: "../images/img_phil.JPG" };
   return (
     <>
       <StyledH1> ABOUT ME </StyledH1>
@@ -28,13 +31,13 @@ function AboutMe() {
       </StyledParagraph>
       <StyledVideoItem>
         <div>
-          <StyledImage src="/images/img_phil.JPG"></StyledImage>
+          <StyledImage src={image1}></StyledImage>
           <StyledParagraph>
             Aus Rowing Championships 2021 (Lake Barrington, Tasmania)
           </StyledParagraph>
         </div>
         <div>
-          <StyledImage src="/images/img_phil2.JPG"></StyledImage>
+          <StyledImage src={image2}></StyledImage>
           <StyledParagraph>
             That's me in my natural habitat, assembling a rigger.
           </StyledParagraph>

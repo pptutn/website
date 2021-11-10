@@ -2,128 +2,171 @@ import { ImageList, ImageListItem } from "@mui/material";
 import React from "react";
 import { StyledH1, StyledParagraph } from "./styled";
 import "./styling/Photos.css";
+import {
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
+  img18,
+  img19,
+  img20,
+  img21,
+  img22,
+  img23,
+  img24,
+  img25,
+  img26,
+  img27,
+  img28,
+  img29,
+  img30,
+  img31,
+  img32,
+  img_phil,
+  img_phil2,
+  img_phil3,
+  img_phil4,
+  meme,
+} from "./index";
 
 function Photos() {
   const imageData = [
     {
       id: 1,
-      imgSrc: "/images/1.JPG",
+      imgSrc: img1,
     },
     {
       id: 2,
-      imgSrc: "/images/2.JPG",
+      imgSrc: img2,
     },
     {
       id: 3,
-      imgSrc: "/images/3.JPG",
+      imgSrc: img3,
     },
     {
       id: 4,
-      imgSrc: "/images/4.JPG",
+      imgSrc: img4,
     },
     {
       id: 5,
-      imgSrc: "/images/5.JPG",
+      imgSrc: img5,
     },
     {
       id: 6,
-      imgSrc: "/images/6.JPG",
+      imgSrc: img6,
     },
     {
       id: 7,
-      imgSrc: "/images/7.JPG",
+      imgSrc: img7,
     },
     {
       id: 8,
-      imgSrc: "/images/8.JPG",
+      imgSrc: img8,
     },
     {
       id: 9,
-      imgSrc: "/images/9.JPG",
+      imgSrc: img9,
     },
     {
       id: 10,
-      imgSrc: "/images/10.JPG",
+      imgSrc: img10,
     },
     {
       id: 11,
-      imgSrc: "/images/11.JPG",
+      imgSrc: img11,
     },
     {
       id: 12,
-      imgSrc: "/images/12.JPG",
+      imgSrc: img12,
     },
     {
       id: 13,
-      imgSrc: "/images/13.JPG",
+      imgSrc: img13,
     },
     {
       id: 14,
-      imgSrc: "/images/14.JPG",
+      imgSrc: img14,
     },
     {
       id: 15,
-      imgSrc: "/images/15.JPG",
+      imgSrc: img15,
     },
     {
       id: 16,
-      imgSrc: "/images/16.JPG",
+      imgSrc: img16,
     },
     {
       id: 17,
-      imgSrc: "/images/17.JPG",
+      imgSrc: img17,
     },
     {
       id: 18,
-      imgSrc: "/images/18.JPG",
+      imgSrc: img18,
     },
     {
       id: 19,
-      imgSrc: "/images/19.JPG",
+      imgSrc: img19,
     },
     {
       id: 21,
-      imgSrc: "/images/21.JPG",
+      imgSrc: img21,
+    },
+    {
+      id: 20,
+      imgSrc: img20,
     },
     {
       id: 22,
-      imgSrc: "/images/22.JPG",
+      imgSrc: img22,
     },
     {
       id: 23,
-      imgSrc: "/images/23.JPG",
+      imgSrc: img23,
     },
     {
       id: 24,
-      imgSrc: "/images/24.JPG",
+      imgSrc: img24,
     },
     {
       id: 25,
-      imgSrc: "/images/25.JPG",
+      imgSrc: img25,
     },
     {
       id: 26,
-      imgSrc: "/images/26.JPG",
+      imgSrc: img26,
     },
     {
       id: 27,
-      imgSrc: "/images/27.JPG",
+      imgSrc: img27,
     },
     {
       id: 28,
-      imgSrc: "/images/28.JPG",
+      imgSrc: img28,
     },
     {
       id: 29,
-      imgSrc: "/images/29.JPG",
+      imgSrc: img29,
     },
     {
       id: 30,
-      imgSrc: "/images/30.JPG",
+      imgSrc: img30,
     },
     {
       id: 31,
-      imgSrc: "/images/31.JPG",
+      imgSrc: img31,
     },
   ];
   return (
