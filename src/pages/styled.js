@@ -39,7 +39,7 @@ const StyledParagraph = styled.p`
 const StyledH1 = styled.h1`
   color: #cc2936;
   text-transform: uppercase;
-  margin-top: 4rem;
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "4rem")};
 `;
 
 const StyledH2 = styled.h2`
