@@ -9,10 +9,10 @@ const StyledVideoItem = styled.div`
 const StyledCaption = styled.caption`
   margin: 3rem;
   margin-bottom: 1rem;
-  font-size: 30px;
+  font-size: 2rem;
   color: #f8333c;
   text-transform: uppercase;
-  max-width: 900px;
+  max-width: 56rem;
   display: inline-block;
   text-decoration: underline;
   text-align: center;'
@@ -31,8 +31,8 @@ const StyledParagraph = styled.p`
     margin-top: 0;
     margin-bottom: ${(props) =>
       props.marginBottom ? props.marginBottom : "0rem"};
-    font-size 20px;
-    max-width: ${(props) => (props.maxWidth ? props.maxWidth : "450px")};
+    font-size 1.5rem;
+    max-width: ${(props) => (props.maxWidth ? props.maxWidth : "42rem")};
     color: ${(props) => (props.color ? props.color : "white")};
 `;
 
@@ -43,21 +43,21 @@ const StyledH1 = styled.h1`
 `;
 
 const StyledH2 = styled.h2`
-  max-width: 900px;
-  font-size 20px;
+  max-width: 56rem;
+  font-size 1.5rem;
   font-weight: normal;
 `;
 
 const StyledImage = styled.img`
-  width: 606px;
-  height: 409px;
+  width: 37.875rem;
+  height: 25.563rem;
 `;
 
 const TextOverImage = styled.div`
   position: absolute;
   top: 55%;
   left: 45%;
-  font-size: 80px;
+  font-size: 5rem;
   color: #ffffff;
 `;
 
