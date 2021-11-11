@@ -37,7 +37,7 @@ const StyledParagraph = styled.p`
 `;
 
 const StyledH1 = styled.h1`
-  color: #cc2936;
+  color: #0bd3d3;
   text-transform: uppercase;
   margin-top: ${(props) => (props.marginTop ? props.marginTop : "4rem")};
 `;

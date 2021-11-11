@@ -30,7 +30,9 @@ const StyledParagraph = styled.p`
   margin: 0 rem;
   font-size: 20px;
   text-transform: uppercase;
-  color: #f1bf98;
+  color: #f890e7;
+  text-decoration: ${(props) =>
+    props.textDecoration ? props.textDecoration : "underline"};
 `;
 
 const StyledList = styled.ul`
@@ -62,7 +64,7 @@ const StyledMenuItem = styled.li`
 const linkStyle = {
   margin: "1rem",
   textDecoration: "none",
-  color: "#F1BF98",
+  color: "#F890E7",
 };
 
 export {
