@@ -13,20 +13,20 @@ import image2 from "../images/img_phil2.JPG";
 function AboutMe() {
   // StyledImage.defaultProps = { src: "../images/img_phil.JPG" };
   return (
-    <>
+    <div>
       <StyledH1> ABOUT ME </StyledH1>
       <p>Hi I'm Phil :)</p>
-      <StyledParagraph maxWidth={"600px"}>
+      <StyledParagraph maxWidth={"37rem"}>
         Jack of all trades, a master of none, but oftentimes better than a
         master of one.
       </StyledParagraph>
-      <StyledParagraph maxWidth={"700px"}>
+      <StyledParagraph maxWidth={"37rem"}>
         3rd Year
         <span style={{ color: "#ff0000" }}> BComm (Finance) </span>+
         <span style={{ color: "#ff0000" }}> BCompSci (Advanced) </span>@ Monash
         University
       </StyledParagraph>
-      <StyledParagraph maxWidth={"600px"}>
+      <StyledParagraph maxWidth={"37rem"}>
         I like doing things. Have a look around my website for things I do.
       </StyledParagraph>
       <StyledVideoItem>
@@ -43,7 +43,7 @@ function AboutMe() {
           </StyledParagraph>
         </div>
       </StyledVideoItem>
-    </>
+    </div>
   );
 }
 

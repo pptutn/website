@@ -9,23 +9,21 @@ import {
   StyledWrapper,
   TextOverImage,
 } from "./styled";
-import {img_phil4} from './index'
+import { img_phil4 } from "./index";
 
 function Sounds() {
   return (
-    <>
+    <div>
       <StyledH1>My Sounds</StyledH1>
-      <StyledH2>
+      <StyledParagraph marginBottom={"1rem"}>
         At the beginning of the pandemic in Melbourne, amidst all the lockdowns,
         I elected to learn new skill. These are a few of my mixes and a few of
         my playlists.
-      </StyledH2>
-
+      </StyledParagraph>
       <a
         href="https://soundcloud.com/phil-tran-51889147/disco-sessions?si=3e6054fb088748e5aff43a214757c709"
         target="_blank"
       >
-        {/* <TextOverImage>click me </TextOverImage> */}
         <img src={img_phil4} resizeMode="contain"></img>
       </a>
 
@@ -97,7 +95,7 @@ function Sounds() {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       ></iframe>
       <br />
-    </>
+    </div>
   );
 }
 

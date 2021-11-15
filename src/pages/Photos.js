@@ -170,7 +170,7 @@ function Photos() {
     },
   ];
   return (
-    <>
+    <div>
       <StyledH1>My Photos</StyledH1>
       <StyledParagraph>
         I fell in love with with film photography from the first photo I took.
@@ -195,7 +195,7 @@ function Photos() {
         <br />
         <br />
       </ImageList>
-    </>
+    </div>
   );
 }
 

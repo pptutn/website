@@ -12,14 +12,16 @@ import {
 
 function Flicks() {
   return (
-    <>
+    <div>
       <StyledH1>My Flicks</StyledH1>
-      <StyledH2>
+      <StyledParagraph>
         I'm a self-taught editor/vidographer with a few years of experience in
         Adobe Premiere Pro and Adobe After Effects. Everything I've learnt has
         been through YouTube. Here are some of the video's I've edited (and
         filmed) over the past few years.
-      </StyledH2>
+      </StyledParagraph>
+      <br />
+      <br />
       <br />
       <StyledVideoItem>
         <StyledWrapper>
@@ -128,7 +130,7 @@ function Flicks() {
           allowfullscreen
         ></iframe>
       </StyledVideoItem>
-    </>
+    </div>
   );
 }
 
