@@ -13,7 +13,7 @@ import image2 from "../images/img_phil2.JPG";
 function AboutMe() {
   // StyledImage.defaultProps = { src: "../images/img_phil.JPG" };
   return (
-    <>
+    <div>
       <StyledH1> ABOUT ME </StyledH1>
       <p>Hi I'm Phil :)</p>
       <StyledParagraph maxWidth={"37rem"}>
@@ -43,7 +43,7 @@ function AboutMe() {
           </StyledParagraph>
         </div>
       </StyledVideoItem>
-    </>
+    </div>
   );
 }
 
