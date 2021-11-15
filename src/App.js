@@ -1,5 +1,11 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import { useTransition, animated } from "react-spring";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import Sounds from "./pages/Sounds";
@@ -32,3 +38,5 @@ function App() {
 }
 
 export default App;
+
+// https://codesandbox.io/s/react-router-spring-b5941?file=/src/index.js:185-239
