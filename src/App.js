@@ -26,7 +26,7 @@ function App() {
         <MenuBar />
 
         <TransitionGroup component={null}>
-          <CSSTransition key={location.key} classNames="fade" timeout={1000}>
+          <CSSTransition key={location.key} classNames="fade" timeout={2500}>
             <Routes location={location}>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<AboutMe />} />
