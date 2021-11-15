@@ -17,7 +17,7 @@ function Flicks() {
       <StyledParagraph>
         I'm a self-taught editor/vidographer with a few years of experience in
         Adobe Premiere Pro and Adobe After Effects. Everything I've learnt has
-        been through YouTube. Here are some of the video's I've edited (and
+        been through YouTube. Here are some of the videos I've edited (and
         filmed) over the past few years.
       </StyledParagraph>
       <br />
